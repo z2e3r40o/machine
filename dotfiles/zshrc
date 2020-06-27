@@ -28,8 +28,8 @@ zstyle ':vcs_info:git*' formats '%F{green}%c%u%b %f'
 export PATH="/usr/local/bin:$PATH"
 
 # Coreutils
-PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
-MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
 # GPG
 export "GPG_TTY=$(tty)"
