@@ -161,7 +161,7 @@ run() {
     echo
     fonts
     echo
-    # sshkey
+    sshkey
     echo
     gpgkey
     echo
