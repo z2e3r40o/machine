@@ -33,7 +33,6 @@ Once complete I have the following on my machine:
     - [GRC](https://github.com/garabik/gr://github.com/garabik/grc)
 8. Fonts
 9. SSH key
-10. GPG key
 
 The following will need to be completed manually:
 
@@ -42,4 +41,6 @@ The following will need to be completed manually:
 3. Set iTerm font to FiraCode
 4. Select default base16-shell theme (i.e. `$ base16_tommorrow-night`)
 5. Access Bitwarden
-6. Upload public keys
+6. Generate gpg key `gpg --full-generate-key`
+7. Upload public keys
+8. Add `/usr/local/bin/zsh` to `/etc/shells` and `chsh -s /usr/local/bin/zsh`
