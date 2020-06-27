@@ -41,3 +41,5 @@ The following will need to be completed manually:
 2. Set correct GPG key in `dotfiles/gitconfig` for signing commits
 3. Set iTerm font to FiraCode
 4. Select default base16-shell theme (i.e. `$ base16_tommorrow-night`)
+5. Access Bitwarden
+6. Upload public keys
