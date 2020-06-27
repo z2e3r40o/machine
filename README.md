@@ -27,6 +27,7 @@ Once complete I have the following on my machine:
     - ProtonVPN
     - iTerm2
     - Firefox Developer Edition
+    - Textual (IRC)
 6. Dotfiles
 7. Colors
     - [Base16](https://github.com/chriskempson/base16-shell)
