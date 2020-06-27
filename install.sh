@@ -106,7 +106,7 @@ fonts() {
 sshkey() {
     echo "SSH - start"
     [ -f "$HOME/.ssh/id_rsa.pub" ] && echo "SSH Key exists at $HOME/.ssh/id_rsa.pub, skipping"
-    [ ! -f "$HOME/.ssh/id_rsa.pub" ] && ssh-keygen -t rsa -b 4096
+    [ ! -f "$HOME/.ssh/id_rsa.pub" ] && ssh-keygen -t rsa -b 4096 -f "$HOME/.ssh/id_rsa"
     echo "SSH - end"
 }
 
