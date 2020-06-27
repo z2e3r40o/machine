@@ -11,6 +11,7 @@ tap "thoughtbot/formulae"
 brew "rcm"
 
 tap "homebrew/cask"
+tap "homebrew/versions"
 
 cask "bitwarden"
 cask "firefox-developer-edition"
