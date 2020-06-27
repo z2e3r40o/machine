@@ -10,8 +10,8 @@ brew "zsh"
 tap "thoughtbot/formulae"
 brew "rcm"
 
-tap "caskroom/cask"
-tap "caskroom/versions"
+tap "homebrew/cask-cask"
+tap "homebrew/cask-versions"
 
 cask "bitwarden"
 cask "firefox-developer-edition"
