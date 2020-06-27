@@ -31,7 +31,7 @@ Once complete I have the following on my machine:
 6. Dotfiles
 7. Colors
     - [Base16](https://github.com/chriskempson/base16-shell)
-    - [GRC](https://github.com/garabik/gr://github.com/garabik/grc)
+    - [grc](https://github.com/garabik/grc)
 8. Fonts
 9. SSH key
 
