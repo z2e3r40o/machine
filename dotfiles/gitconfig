@@ -6,7 +6,7 @@
     excludesfile = ~/.gitignore
 [commit]
     gpgsign = true
-[aliases]
+[alias]
     aliases      = ! git config --list | grep alias
     amend        = commit --amend
     commits      = log --pretty=format:'%Cred%h%Creset - %G? -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
