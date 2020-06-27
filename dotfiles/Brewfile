@@ -1,0 +1,19 @@
+brew "fzf"
+brew "git"
+brew "gpg"
+brew "grc"
+brew "the_silver_searcher"
+brew "tmux"
+brew "vim"
+brew "zsh"
+
+tap "thoughtbot/formulae"
+brew "rcm"
+
+tap "caskroom/cask"
+tap "caskroom/versions"
+
+cask "bitwarden"
+cask "firefox-developer-edition"
+cask "iterm2"
+cask "protonvpn"

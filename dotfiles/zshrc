@@ -1,0 +1,59 @@
+autoload -U compinit && compinit
+autoload -U bashcompinit && bashcompinit
+autoload -U colors && colors
+
+#
+# Prompt
+#
+setopt prompt_subst
+autoload -U promptinit && promptinit
+
+# Version control information in prompt
+autoload -Uz vcs_info
+precmd() {
+  vcs_info
+}
+zstyle ':vcs_info:*' enable git
+zstyle ':vcs_info:*' check-for-changes true
+zstyle ':vcs_info:*' unstagedstr '%F{red}'
+zstyle ':vcs_info:*' stagedstr '%F{yellow}'
+zstyle ':vcs_info:git*' actionformats '%F{magenta}%a %c%f'
+zstyle ':vcs_info:git*' formats '%F{green}%c%u%b %f'
+
+#
+# Path
+#
+
+# Homebrew
+export PATH="/usr/local/bin:$PATH"
+
+# Coreutils
+PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+
+# GPG
+export "GPG_TTY=$(tty)"
+
+#
+# Aliases
+#
+
+alias ll="ls -lah"
+
+#
+# Colors
+#
+
+# Theme
+BASE16_SHELL="$HOME/.config/base16-shell/"
+[ -n "$PS1" ] && \
+	[ -s "$BASE16_SHELL/profile_helper.sh" ] && \
+	eval "$("$BASE16_SHELL/profile_helper.sh")"
+
+# GRC
+[[ -s "/usr/local/etc/grc.zsh" ]] && source /usr/local/etc/grc.zsh
+
+#
+# FZF
+#
+[ -f "$HOME/.fzf.zsh" ] && source $HOME/.fzf.zsh

@@ -1,0 +1,22 @@
+[user]
+    signingkey = [insert GPG signing key here]
+    name = z2e3r40o
+    email = z2e3r40o@protonmail.com
+[core]
+    excludesfile = ~/.gitignore
+[commit]
+    gpgsign = true
+[aliases]
+  aliases      = ! git config --list | grep alias
+  amend        = commit --amend
+  commits      = log --pretty=format:'%Cred%h%Creset - %G? -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+  graph        = log --graph --pretty=format:'%Cred%h%Creset - %G? -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+  join         = merge --no-ff
+  recall       = stash show -p
+  recent       = for-each-ref --count=10 --sort=-committerdate refs/heads/ --format='%(refname:short)'
+  rollback     = reset HEAD^
+  search       = "!f1() { git log --all --grep=$1; }; f1"
+  track        = update-index --no-assume-unchanged
+  unstage      = reset HEAD --
+  untrack      = update-index --assume-unchanged
+  whoami       = config user.name
