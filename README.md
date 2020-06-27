@@ -3,7 +3,8 @@
 This repository contains everything I need to quickly get a brand new machine ready for development.
 
 After setting up a user account on an Apple machine, I login with that user and run the following
-command in Terminal.app, there are prompts for information as it runs and a few manual steps to completed after:
+command in Terminal.app, there are prompts for information as it runs and a few manual steps to
+be completed after:
 
 ```zsh
 $ curl "https://raw.githubusercontent.com/z2e3r40o/machine/master/install.sh" | zsh
