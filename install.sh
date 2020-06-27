@@ -76,11 +76,11 @@ install_base16() {
 }
 
 colors() {
-    echo "COLORS - start"
+    echo "Colors - start"
     base16shell="$HOME/.config/base16-shell"
     [ -d $base16shell ] && echo "Color exist at $base16shell, skipping"
     [ ! -d $base16shell ] && install_base16
-    echo "COLORS - end"
+    echo "Colors - end"
 }
 
 #
@@ -92,11 +92,11 @@ install_firacode() {
 }
 
 fonts() {
-    echo "COLORS - start"
+    echo "Fonts - start"
     firacode="$HOME/.config/FiraCode"
     [ -d $firacode ] && echo "Fonts exist at $firacode, skipping"
     [ ! -d $firacode ] && install_firacode
-    echo "COLORS - end"
+    echo "Fonts - end"
 }
 
 #
