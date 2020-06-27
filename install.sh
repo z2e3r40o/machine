@@ -126,9 +126,7 @@ gpgkey() {
 #
 
 use_zshell() {
-    sudo su
-    echo "/usr/local/bin/zsh" >> /etc/shells
-    exit
+    sudo su && echo "/usr/local/bin/zsh" >> /etc/shells
     chsh -s /usr/local/bin/zsh
 }
 
