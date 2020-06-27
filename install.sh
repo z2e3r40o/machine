@@ -117,7 +117,7 @@ gpgkey() {
     gpg --list-secret-keys &> /dev/null
     keyscount=$(gpg --list-secret-keys | wc -l)
     [ $keyscount -ne 0 ] && echo "GPG keys exist, skipping"
-    [ $keyscount -eq 0 ] && gpg --full-generate-key
+    [ $keyscount -eq 0 ] && GPG_TTY=$(tty) gpg --full-generate-key
     echo "GPG - end"
 }
 
