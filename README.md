@@ -19,10 +19,10 @@ Once complete I have the following on my machine:
     - zsh (latest)
     - [coreutils](https://www.gnu.org/software/coreutils/)
     - git (latest)
-    - GPG
+    - gpg
     - vim (latest)
-    - [RCM](https://github.com/thoughtbot/rcm)
-    - [FZF](https://github.com/junegunn/fzf)
+    - [rcm](https://github.com/thoughtbot/rcm)
+    - [fzf](https://github.com/junegunn/fzf)
     - [ag](https://github.com/ggreer/the_silver_searcher)
     - [grc](https://github.com/garabik/grc)
 5. Apps
