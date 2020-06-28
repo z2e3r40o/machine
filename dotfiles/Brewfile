@@ -19,3 +19,4 @@ cask "firefox-developer-edition"
 cask "iterm2"
 cask "protonvpn"
 cask "textual" # IRC client
+cask "phoenix" # window manager

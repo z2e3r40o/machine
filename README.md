@@ -31,6 +31,7 @@ Once complete I have the following on my machine:
     - iTerm2
     - Firefox Developer Edition
     - Textual (IRC)
+    - Phoenix (window management)
 6. Dotfiles
 7. Colors
     - [Base16](https://github.com/chriskempson/base16-shell)
