@@ -16,6 +16,7 @@ Once complete I have the following on my machine:
 2. Homebrew
 3. Machine configuration files
 4. Programs
+    - zsh (latest)
     - [coreutils](https://www.gnu.org/software/coreutils/)
     - git (latest)
     - GPG
@@ -23,6 +24,7 @@ Once complete I have the following on my machine:
     - [RCM](https://github.com/thoughtbot/rcm)
     - [FZF](https://github.com/junegunn/fzf)
     - [ag](https://github.com/ggreer/the_silver_searcher)
+    - [grc](https://github.com/garabik/grc)
 5. Apps
     - Bitwarden
     - ProtonVPN
