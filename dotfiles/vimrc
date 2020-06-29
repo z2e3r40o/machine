@@ -19,6 +19,7 @@ Plug 'tpope/vim-sensible'
 " fuzzy finding
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'reedes/vim-wheel'
 " themes
 Plug 'chriskempson/base16-vim'
 " provide some level of support for a large
