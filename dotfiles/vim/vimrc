@@ -62,10 +62,10 @@ nmap <leader>, :e ~/.vim/vimrc<cr>
 " reload vimrc
 nmap <leader>s :so ~/.vim/vimrc<cr>
 
+" since ; is remapped above, make it available as ;;
+noremap ;; ;
 " start typing a colon command by pressing ; instead of ⇧;
 nmap ; :
-" since ; is remapped above, make it available as ;;
-nmap ;; ;
 
 " start typing a shell command by pressing 1 instead of press ⇧;1
 nmap 1 :!
@@ -119,3 +119,4 @@ let $FZF_DEFAULT_COMMAND='ag -g ""'
 nmap <leader>e :Files<cr>
 nmap <leader>b :Buffers<cr>
 nmap <leader>f :Ag<cr>
+nmap <leader>* :Ag <c-r><c-w><cr>
