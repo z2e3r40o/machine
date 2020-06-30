@@ -57,10 +57,10 @@ let mapleader=" "
 "
 
 " open settings
-nmap <leader>, :e ~/.vim/vimrc<cr>
+nmap <leader>, :e $MYVIMRC<cr>
 
 " reload vimrc
-nmap <leader>s :so ~/.vim/vimrc<cr>
+nmap <leader>s :so $MYVIMRC<cr>
 
 " since ; is remapped above, make it available as ;;
 noremap ;; ;
