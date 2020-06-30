@@ -56,8 +56,11 @@ let mapleader=" "
 " Quick access remaps of native commands
 "
 
+" open settings
+nmap <leader>, :e ~/.vim/vimrc<cr>
+
 " reload vimrc
-nmap <leader>s :so ~/.vimrc<cr>
+nmap <leader>s :so ~/.vim/vimrc<cr>
 
 " start typing a colon command by pressing ; instead of ⇧;
 nmap ; :
