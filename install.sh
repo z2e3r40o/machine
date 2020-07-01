@@ -42,7 +42,7 @@ config() {
 install_config() {
     machinegit=""
     vared -p "What is the machine config git path? " -c machinegit
-    git clone "$machinegit" "$MACHINE"
+    git clone --recurse-submodules "$machinegit" "$MACHINE"
 }
 
 #
