@@ -1,7 +1,3 @@
-autoload -U compinit && compinit
-autoload -U bashcompinit && bashcompinit
-autoload -U colors && colors
-
 #
 # Path
 #
@@ -25,6 +21,8 @@ alias ll="ls -lah"
 #
 # Colors
 #
+
+autoload -U colors && colors
 
 # Theme
 BASE16_SHELL="$HOME/.config/base16-shell/"
@@ -53,7 +51,18 @@ zstyle ':vcs_info:git*' formats '%F{green}%c%u%b %f'
 
 PROMPT=$'%F{8}%~%f ${vcs_info_msg_0_}\n$%f '
 
+#
+# Completions
+#
+
+autoload -U compinit && compinit
+autoload -U bashcompinit && bashcompinit
+
+
+
+#
 # GRC
+#
 [[ -s "/usr/local/etc/grc.zsh" ]] && source /usr/local/etc/grc.zsh
 
 #
