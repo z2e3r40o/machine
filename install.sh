@@ -72,12 +72,12 @@ dotfiles() {
 #
 
 install_base16() {
-    git clone https://github.com/chriskempson/base16-shell.git $HOME/.config/base16-shell
+    git clone https://github.com/chriskempson/base16-shell.git $HOME/.etc/base16-shell
 }
 
 colors() {
     echo "Colors - start"
-    base16shell="$HOME/.config/base16-shell"
+    base16shell="$HOME/.machine/etc/base16-shell"
     [ -d $base16shell ] && echo "Color exist at $base16shell, skipping"
     [ ! -d $base16shell ] && install_base16
     echo "Colors - end"
@@ -88,12 +88,12 @@ colors() {
 #
 
 install_firacode() {
-    git clone https://github.com/tonsky/FiraCode.git $HOME/.config/FiraCode
+    git clone https://github.com/tonsky/FiraCode.git $HOME/.machine/etc/FiraCode
 }
 
 fonts() {
     echo "Fonts - start"
-    firacode="$HOME/.config/FiraCode"
+    firacode="$HOME/.machine/etc/FiraCode"
     [ -d $firacode ] && echo "Fonts exist at $firacode, skipping"
     [ ! -d $firacode ] && install_firacode
     echo "Fonts - end"
