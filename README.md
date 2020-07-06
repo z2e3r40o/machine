@@ -16,8 +16,10 @@ Once complete I have the following on my machine:
 2. Homebrew
 3. Machine configuration files
 4. Programs
+    - [asdf](https://github.com/asdf-vm/asdf)
     - zsh (latest)
     - [coreutils](https://www.gnu.org/software/coreutils/)
+    - curl (latest)
     - git (latest)
     - gpg
     - vim (latest)

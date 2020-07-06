@@ -58,7 +58,10 @@ PROMPT=$'%F{8}%~%f ${vcs_info_msg_0_}\n$%f '
 autoload -U compinit && compinit
 autoload -U bashcompinit && bashcompinit
 
-
+#
+# ASDF
+#
+. $(brew --prefix asdf)/asdf.sh
 
 #
 # GRC
