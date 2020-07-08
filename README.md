@@ -30,7 +30,7 @@ Once complete I have the following on my machine:
 5. Apps
     - Bitwarden
     - ProtonVPN
-    - iTerm2
+    - Kitty (Terminal)
     - Firefox Developer Edition
     - Textual (IRC)
     - Phoenix (window management)

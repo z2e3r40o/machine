@@ -3,7 +3,7 @@ brew "coreutils"
 brew "curl"
 brew "fzf"
 brew "git"
-brew "gpg"
+brew "gpg2"
 brew "grc"
 brew "the_silver_searcher"
 brew "tmux"
@@ -18,7 +18,7 @@ tap "homebrew/cask-versions"
 
 cask "bitwarden"
 cask "firefox-developer-edition"
-cask "iterm2"
+cask "kitty"
 cask "protonvpn"
 cask "textual" # IRC client
 cask "phoenix" # window manager
