@@ -20,3 +20,5 @@
     unstage      = reset HEAD --
     untrack      = update-index --assume-unchanged
     whoami       = config user.name
+[pull]
+    ff = only
