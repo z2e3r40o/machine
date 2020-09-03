@@ -23,3 +23,5 @@ cask "protonvpn"
 cask "textual" # IRC client
 cask "phoenix" # window manager
 cask "transmission"
+
+cask "steam"
