@@ -20,5 +20,6 @@
     unstage      = reset HEAD --
     untrack      = update-index --assume-unchanged
     whoami       = config user.name
+    wip          = commit -am wip
 [pull]
     ff = only
