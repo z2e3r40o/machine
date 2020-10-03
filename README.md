@@ -44,7 +44,6 @@ Once complete I have the following on my machine:
 The following will need to be completed manually:
 
 1. Set MacOS settings (i.e. tap to click, ctrl to capslock, etc)
-2. Set iTerm font to FiraCode
 3. Select default base16-shell theme (i.e. `$ base16_tommorrow-night`)
 4. Access Bitwarden
 5. Generate gpg key `gpg --full-generate-key`
