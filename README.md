@@ -21,6 +21,7 @@ Once complete I have the following on my machine:
     - [coreutils](https://www.gnu.org/software/coreutils/)
     - curl (latest)
     - git (latest)
+    - go
     - gpg
     - vim (latest)
     - [rcm](https://github.com/thoughtbot/rcm)
